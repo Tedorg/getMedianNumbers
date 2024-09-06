@@ -1,0 +1,10 @@
+{
+    "name": "Median Extension",
+    "description": "A function to calculate the median of a number array",
+    "dependencies": {
+      "core": "*"
+    },
+    "files": [
+      "main.ts"
+    ]
+  }
