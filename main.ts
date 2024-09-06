@@ -9,7 +9,7 @@ namespace MathExtensions {
      * Returns the median of a number array.
      * @param bArray The array of numbers to calculate the median for
      */
-    //% block="median of array $bArray with length $iFilterLen"
+    //% block="median of array $bArray"
     export function getMedianNum(bArray: number[]): number {
         let  iFilterLen: number = bArray.length;
         let bTemp: number = 0;
@@ -41,3 +41,5 @@ namespace MathExtensions {
         return bTemp;
     }
 }
+
+
